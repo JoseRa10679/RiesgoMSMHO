@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cincuenta">50sp</dimen>
+    <dimen name="cuarenta">40sp</dimen>
+    <dimen name="veinticinco">25sp</dimen>
+    <dimen name="veinte">20sp</dimen>
+    <dimen name="dieciseis">16sp</dimen>
+    <dimen name="quince">15sp</dimen>
+    <dimen name="doce">12sp</dimen>
+    <dimen name="diez">10sp</dimen>
+    <dimen name="cinco">5dp</dimen>
+
+</resources>

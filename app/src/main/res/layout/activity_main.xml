@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity"
+    android:id="@+id/scroll_View">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cuarenta"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradient"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewEdad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:gravity="start|center_vertical"
+                android:text="@string/strEdad"
+                android:textSize="16sp"
+                tools:ignore="RtlHardcoded"/>
+
+            <EditText
+                android:id="@+id/editTextEdad"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:layout_marginStart="2dp"
+                android:gravity="center"
+                android:hint="@string/_00"
+                android:inputType="number"
+                android:maxLength="2"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="16sp"
+                android:importantForAutofill="no">
+
+                <requestFocus/>
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:text="@string/strAnos" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/textViewGrosor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:layout_gravity="top|start"
+                android:textSize="@dimen/dieciseis"
+                android:text="@string/strGrosor"
+                android:layout_marginStart="@dimen/veinte"
+                />
+
+            <EditText
+                android:id="@+id/editTextGrosor"
+                android:layout_width="@dimen/cincuenta"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/cinco"
+                android:gravity="center"
+                android:hint="@string/_00"
+                android:inputType="number"
+                android:maxLength="2"
+                android:selectAllOnFocus="true"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/textViewMMrosor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strMm"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:layout_gravity="top|start"
+                android:textSize="@dimen/dieciseis"
+                android:text="@string/strDiametro"
+                android:layout_marginStart="@dimen/veinte"
+                />
+
+            <EditText
+                android:id="@+id/editTextAuricula"
+                android:layout_width="@dimen/cincuenta"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/cinco"
+                android:layout_marginStart="@dimen/cinco"
+                android:gravity="center"
+                android:hint="@string/_00"
+                android:inputType="number"
+                android:maxLength="2"
+                android:selectAllOnFocus="true"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strMm"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:layout_gravity="top|start"
+                android:textSize="16sp"
+                android:layout_marginStart="20dp"
+                android:text="@string/strGradiente_m"
+                />
+
+            <EditText
+                android:id="@+id/editTextGradiente"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:layout_marginEnd="@dimen/cinco"
+                android:layout_marginStart="@dimen/cinco"
+                android:gravity="center"
+                android:hint="@string/_000"
+                android:inputType="number"
+                android:maxLength="3"
+                android:selectAllOnFocus="true"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/textViewmmHg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mmhg"
+                android:layout_marginStart="@dimen/cinco"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/diez"
+            >
+
+            <CheckBox
+                android:id="@+id/checkBoxMS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/dieciseis"
+                android:layout_gravity="start|center_vertical"
+                android:gravity="start"
+                android:text="@string/strHistoria_ms"
+                android:layout_marginStart="@dimen/veinte"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBoxTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:textSize="@dimen/dieciseis"
+                android:text="@string/strTV"
+                android:gravity="start"
+                android:layout_marginStart="@dimen/veinte"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/diez">
+
+            <CheckBox
+                android:id="@+id/checkBoxSincope"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/dieciseis"
+                android:layout_gravity="start|center_vertical"
+                android:text="@string/strSincope_i"
+                android:layout_marginStart="@dimen/veinte"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonCalcular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/diez"
+                android:layout_marginBottom="@dimen/diez"
+                android:background="@drawable/myboton"
+                android:textColor="@color/blancoPuro"
+                android:text="@string/strCalcular"
+                android:layout_marginStart="@dimen/veinte"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1Riesgo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/diez"
+                android:text="@string/strRiesgo"
+                android:textSize="@dimen/dieciseis"
+                android:layout_marginStart="@dimen/veinte"/>
+
+            <TextView
+                android:id="@+id/textViewPorcentaje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/rojoOscuro"
+                android:textSize="@dimen/veinte"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/veinte"
+                android:layout_marginBottom="@dimen/quince"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView1Recomendacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/dieciseis"
+                android:text="@string/strRecomendacion"
+                android:layout_marginStart="@dimen/veinte"/>
+            <TextView
+                android:id="@+id/textViewRecomendaciones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/verdeOscuro"
+                android:textSize="@dimen/veinte"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/veinte"
+                android:layout_marginBottom="@dimen/quince"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/veinte"
+                android:layout_marginTop="@dimen/diez"
+                android:layout_marginEnd="@dimen/veinte"
+                android:text="@string/strConsejos"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/doce"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textGuias_esc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/veinte"
+                android:layout_marginTop="@dimen/diez"
+                android:layout_marginEnd="@dimen/veinte"
+                android:layout_marginBottom="@dimen/veinticinco"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/strGuias"
+                android:textColor="@color/NegroPuro"
+                android:textSize="@dimen/doce"
+                android:textStyle="bold|italic" />
+            <!-- https://goo.gl/1Pc3z1 -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

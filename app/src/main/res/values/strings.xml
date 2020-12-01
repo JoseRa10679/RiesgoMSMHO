@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name"> Riesgo MS en MH </string>
+    <string name="_00" translatable="false">00</string>
+    <string name="Acercade" translatable="true">Acerca de…</string>
+    <string name="AcercadeJosera" translatable="false"> \@JoseRa\nSeptiembre 2017\nquistabenasque@gmail.com </string>
+    <string name="mmhg" translatable="false">mmHg</string>
+    <string name="strGradiente_m">Gradiente máximo:</string>
+    <string name="strRecomendacion">Recomendación de la ESC:</string>
+    <string name="strSincope_i">Síncope inexplicado</string>
+    <string name="_000" translatable="false">000</string>
+    <string name="strEdad">Edad: </string>
+    <string name="strAnos">años</string>
+    <string name="strGrosor">Máximo grosor de la pared:</string>
+    <string name="strMm" translatable="false">mm</string>
+    <string name="strHistoria_ms">Historia familiar de Muerte Súbita</string>
+    <string name="strTV">Taquicardia Ventricular no sostenida</string>
+    <string name="strCalcular">Calcular</string>
+    <string name="strDiametro">Diámetro auricular:</string>
+    <string name="strRiesgo">Riesgo de Muerte Súbita a los 5 años:</string>
+    <string name="strConsejos">No se recomineda este Score en:\n- Menores de 16 años.\n- Atletas de élite.\n- Metabolopatías (p.e, Fabry).\n- Pacientes con indicación de ICD como prevención secundaria</string>
+    <string name="strGuias" translatable="false"><a href="https://goo.gl/1Pc3z1">2014 ESC Guidelines on diagnosis and management of hypertrophic cardiomyopathy</a></string>
+    <string name="strMenores16">Fórmula no recomendada para menores de 16 años</string>
+    <string name="strGrosor_mayor">El grosor del tabique debe ser mayor de 0</string>
+    <string name="strTamano_auricula">El tamaño auricular debe ser mayor de 0</string>
+    <string name="strDAI_no_indicado">No hay indicación de DAI</string>
+    <string name="strDAI_IIb">Indicacion de DAI IIb</string>
+    <string name="strDAI_IIa">Indicación de DAI IIa</string>
+    <string name="strEdad_vacio">El campo edad está vacío.</string>
+    <string name="strTabique_vacio">El campo tabique está vacío.</string>
+    <string name="strTabique_fino">El grosor del tabique debe ser superior a 15 mm.</string>
+    <string name="version">Versión</string>
+
+</resources>

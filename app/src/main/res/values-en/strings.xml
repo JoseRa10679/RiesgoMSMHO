@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SCD HCM risk</string>
+    <string name="Acercade">About…</string>
+    <string name="strGradiente_m">Maximum LV gradient:</string>
+    <string name="strRecomendacion">ESC recomendation</string>
+    <string name="strSincope_i">Unexplained syncope</string>
+    <string name="strEdad">Age:</string>
+    <string name="strAnos">years</string>
+    <string name="strGrosor">Maximum wall thickness:</string>
+    <string name="strHistoria_ms">Family history of Sudden Cardiac Death</string>
+    <string name="strTV">Non-sustained Ventricular Tachycardia</string>
+    <string name="strCalcular">Calculate</string>
+    <string name="strDiametro">"Left Atrial Size: "</string>
+    <string name="strRiesgo">Risk of Sudden Cardiac Death at 5 years:</string>
+    <string name="strMenores16">Not useful for patients under 16 years old</string>
+    <string name="strGrosor_mayor">The thickness or the wall sholud be greater than 0</string>
+    <string name="strTamano_auricula">Left Atrial Size should be greater than 0</string>
+    <string name="strConsejos">It is not recommended in:\n- Under 16 years old.\n- Elite athletes.\n- Metabolopathies (eg, Fabry).\n- Patients with indication of ICD as secondary prevention</string>
+    <string name="strDAI_no_indicado">There is not indication of ICD</string>
+    <string name="strDAI_IIb">Indication of ICD class IIb</string>
+    <string name="strDAI_IIa">Indication of ICD class IIa</string>
+    <string name="strEdad_vacio">The field age is empty.</string>
+    <string name="strTabique_vacio">The field wall thickness is empty.</string>
+    <string name="strTabique_fino">The thickness of the wall should be over 15 mm.</string>
+    <string name="version">Version</string>
+</resources>
