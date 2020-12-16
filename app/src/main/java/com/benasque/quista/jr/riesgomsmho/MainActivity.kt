@@ -245,6 +245,7 @@ class MainActivity : AppCompatActivity() {
             view.setPadding(50, 50, 50, 50)
             view.setBackgroundColor(getColor(R.color.verdeOscuro))
             show()
+            
         }
     }
 }

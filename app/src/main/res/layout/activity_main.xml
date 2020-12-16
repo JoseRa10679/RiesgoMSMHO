@@ -50,7 +50,6 @@
                 android:singleLine="true"
                 android:textSize="16sp"
                 android:importantForAutofill="no">
-
                 <requestFocus/>
             </EditText>
 
@@ -67,16 +66,16 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             >
+
             <TextView
                 android:id="@+id/textViewGrosor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="start|center_vertical"
                 android:layout_gravity="top|start"
-                android:textSize="@dimen/dieciseis"
-                android:text="@string/strGrosor"
                 android:layout_marginStart="@dimen/veinte"
-                />
+                android:gravity="start|center_vertical"
+                android:text="@string/strGrosor"
+                android:textSize="@dimen/dieciseis" />
 
             <EditText
                 android:id="@+id/editTextGrosor"
