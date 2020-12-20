@@ -67,10 +67,11 @@ class MainActivity : AppCompatActivity() {
 
 
     //</editor-fold>
-    @SuppressLint("SourceLockedOrientationActivity")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+
+        setSupportActionBar(binding.toolbar)
 
         // Comprueba fecha límite
         if (CFecha.comprueba("01/01/2024")) {
